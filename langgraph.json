@@ -1,0 +1,9 @@
+{
+  "graphs": {
+    "create_reporter": "./src/create_reporter_graph.py:graph",
+    "answer_reporter_question": "./src/answer_reporter_question_graph.py:graph",
+    "research_graph": "./src/research_graph.py:graph"
+  },
+  "dependencies": ["."],
+  "env": ".env"
+}

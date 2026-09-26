@@ -1,0 +1,26 @@
+[project]
+name = "researchagent2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Yevoo Justice Selasi", email = "sel3491justice@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "colorama>=0.4.6",
+    "dotenv>=0.9.9",
+    "langchain>=1.4.2",
+    "langchain-community>=0.4.2",
+    "langchain-openai>=1.6.6",
+    "langchain-tavily>=0.2.18",
+    "langgraph>=1.2.12",
+    "langgraph-cli[inmem]>=0.4.32",
+]
+
+[project.scripts]
+researchagent2 = "researchagent2:main"
+
+
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
